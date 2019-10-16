@@ -1,0 +1,392 @@
+.delivery-box {
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	font-family: HiraginoSansGB-W3, 'Microsoft Yahei'
+}
+
+.delivery-box a,
+.delivery-box div,
+.delivery-box input {
+	box-sizing: border-box
+}
+
+.delivery-box img {
+	border: 0
+}
+
+.delivery-box ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0
+}
+
+.delivery-box p {
+	margin: 0
+}
+
+.delivery-box .red {
+	color: #ff552e
+}
+
+.delivery-box .close-box {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 17px;
+	height: 17px;
+	background: url(//img.58cdn.com.cn/ui7/job/resume/delivery-close.png) no-repeat
+}
+
+.guide-box .guide-content {
+	background: #fff;
+	left: 50%;
+	top: 40%;
+	width: 548px;
+	height: 308px;
+	margin-left: -274px;
+	margin-top: -154px;
+	position: absolute
+}
+
+.guide-box .guide-info {
+	width: 424px;
+	margin: 70px 62px 64px
+}
+
+.guide-box .title {
+	color: #333;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 25px;
+	text-align: center
+}
+
+.guide-box .title i {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.guide-box .title .infoName {
+	display: inline-block;
+	max-width: 120px;
+	vertical-align: bottom;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.guide-box .success-icon {
+	background: url(//img.58cdn.com.cn/ui7/job/resume/delivery-success.png) no-repeat
+}
+
+.guide-box .fail-icon {
+	background: url(//img.58cdn.com.cn/ui7/job/resume/delivery-fail.png) no-repeat
+}
+
+.guide-box .message {
+	font-size: 16px;
+	color: #666;
+	line-height: 24px;
+	width: 424px;
+	float: left;
+	position: relative
+}
+
+.guide-box .message p {
+	display: table;
+	margin: 0 auto
+}
+
+.guide-box .btns {
+	width: 100%;
+	padding-top: 80px;
+	margin: 0 auto;
+	text-align: center
+}
+
+.guide-box .btn {
+	font-size: 16px;
+	color: #ff552e;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 11px;
+	display: inline-block;
+	border: 1px solid #ff552e;
+	border-radius: 2px;
+	text-align: center;
+	cursor: pointer
+}
+
+.guide-box .btn.active {
+	background: #ff552e;
+	color: #fff
+}
+
+.guide-box .qrcode-div {
+	display: inline-block;
+	margin: 40px 52px;
+	width: 180px;
+	text-align: center;
+	float: left
+}
+
+.guide-box .qrcode-div .qrcode {
+	width: 180px;
+	height: 180px;
+	padding: 10px;
+	display: inline-block
+}
+
+.guide-box .qrcode-tip {
+	font-size: 14px;
+	color: #999;
+	line-height: 17px;
+	margin-bottom: 2px
+}
+
+.guide-box .download-tip {
+	font-size: 12px;
+	color: #999;
+	line-height: 15px;
+	width: 96px;
+	margin: 0 auto
+}
+
+.guide-box .success-text {
+	margin-top: 128px;
+	display: inline-block
+}
+
+#chooseResume .guide-content {
+	height: auto
+}
+
+.resumeList-guide-info {
+	margin: 60px 50px 50px;
+	text-align: center
+}
+
+.resumeList-guide-info .title {
+	font-size: 16px;
+	color: #666;
+	line-height: 24px;
+	margin-bottom: 30px
+}
+
+.resumeList-guide-info .resumeList {
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+	padding-left: 100px;
+	text-align: left
+}
+
+.resumeList-guide-info .resume-item {
+	margin: 12px 0
+}
+
+.resumeList-guide-info .resume-item label {
+	vertical-align: middle
+}
+
+.resumeList-guide-info .resume-radio {
+	display: none
+}
+
+.resumeList-guide-info .resume-radio+label {
+	height: 14px;
+	width: 14px;
+	float: left;
+	margin: 3px 8px;
+	border: 0;
+	background: url(//img.58cdn.com.cn/ui7/job/resume/resumeNoselect.png) no-repeat
+}
+
+.resumeList-guide-info .resume-radio:checked+label {
+	background: url(//img.58cdn.com.cn/ui7/job/resume/resumeSelected.png) no-repeat
+}
+
+.resumeList-guide-info .resume-radio+label.checked {
+	background: url(//img.58cdn.com.cn/ui7/job/resume/resumeSelected.png) no-repeat
+}
+
+.resumeList-guide-info .delivery-btn {
+	margin-top: 15px
+}
+
+.authMobile-box .authMobile-content {
+	background: #fff;
+	left: 50%;
+	top: 40%;
+	width: 640px;
+	margin-left: -320px;
+	margin-top: -180px;
+	position: absolute
+}
+
+.authMobile-box .authMobile-info {
+	width: 414px;
+	margin: 66px 112px 46px
+}
+
+.authMobile-box .checkcode-content .title {
+	width: 64px;
+	margin-right: 10px;
+	float: left;
+	line-height: 46px
+}
+
+.authMobile-box .title {
+	font-size: 16px;
+	color: #666
+}
+
+.authMobile-box .authMobileBox-tip {
+	margin: 30px 0 20px
+}
+
+.authMobile-box .box-tel,
+.authMobile-box .box-code {
+	padding: 10px 0
+}
+
+.authMobile-box .input {
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	height: 46px;
+	padding-left: 13px;
+	font-size: 14px
+}
+
+.authMobile-box .input.error {
+	border-color: #ff552e
+}
+
+.authMobile-box .tel-input {
+	width: 340px
+}
+
+.authMobile-box .code-input {
+	width: 210px
+}
+
+.authMobile-box .error-info {
+	font-size: 12px;
+	color: #ff552e;
+	margin-left: 74px
+}
+
+.authMobile-box .error-info .warning {
+	width: 14px;
+	height: 14px;
+	float: left;
+	margin-right: 5px;
+	display: inline-block;
+	background: url(//img.58cdn.com.cn/ui7/job/resume/delivery-tip.png) no-repeat
+}
+
+.authMobile-box #getCheckCode {
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+	text-align: center;
+	width: 124px;
+	height: 46px;
+	line-height: 46px;
+	margin-left: 6px;
+	font-size: 14px;
+	color: #666;
+	float: right;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.authMobile-box #getCheckCode.enabled {
+	border: 1px solid #ff552e;
+	color: #ff552e;
+	cursor: pointer
+}
+
+.authMobile-box #checkDelivery {
+	background: #ff552e;
+	border-radius: 2px;
+	width: 340px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	margin-left: 74px;
+	text-align: center;
+	cursor: pointer
+}
+
+.authMobile-box .btns {
+	width: 100%;
+	margin-top: 30px
+}
+
+.authMobile-box .btn {
+	font-size: 16px;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	width: 100%;
+	text-align: center
+}
+
+.loading-box .loading-content {
+	background: #fff;
+	left: 50%;
+	top: 40%;
+	width: 430px;
+	height: 242px;
+	margin-left: -215px;
+	margin-top: -121px;
+	position: fixed
+}
+
+.loading-box .loading-info {
+	margin: 100px 0
+}
+
+.loading-box .loading-icon {
+	width: 36px;
+	height: 36px;
+	margin-left: 55px;
+	display: inline-block;
+	background: url(//img.58cdn.com.cn/ui7/job/resume/processing.png) no-repeat
+}
+
+.loading-box .loading-mes {
+	font-size: 24px;
+	color: #333;
+	line-height: 36px;
+	vertical-align: top;
+	margin-left: 13px
+}
+
+.guide-bg,
+.loading-bg {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .3;
+	filter: alpha(opacity=30)
+}

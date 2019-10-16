@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>DormitoryManagement</display-name>
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.AdminServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  
+    <servlet-name>ImportServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.ImportServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>CostServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.CostServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.DeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MiddleServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.MiddleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NoticeServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.NoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RecordServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.RecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoomServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.RoomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SuperServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.SuperServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LianDongServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.LianDongServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuildingServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.BuildingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.AjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportAdminServlet</servlet-name>
+    <servlet-class>ExportServlet.ExportAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportRoomServlet</servlet-name>
+    <servlet-class>ExportServlet.ExportRoomServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImportServlet2</servlet-name>
+    <servlet-class>com.ambow.servlet.ImportServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.ExportServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>StudentMidServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.StudentMidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowMainServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.ShowMainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImportAdmin</servlet-name>
+    <servlet-class>com.ambow.servlet.ImportAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImportStuServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.ImportStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IdentifyingServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.IdentifyingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BoradServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.BoradServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DaoRuServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.DaoRuServlet</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CostServlet</servlet-name>
+    <url-pattern>/CostServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptServlet</servlet-name>
+    <url-pattern>/DeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MiddleServlet</servlet-name>
+    <url-pattern>/MiddleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoticeServlet</servlet-name>
+    <url-pattern>/NoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordServlet</servlet-name>
+    <url-pattern>/RecordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoomServlet</servlet-name>
+    <url-pattern>/RoomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SuperServlet</servlet-name>
+    <url-pattern>/SuperServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildingServlet</servlet-name>
+    <url-pattern>/BuildingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportAdminServlet</servlet-name>
+    <url-pattern>/ExportAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportRoomServlet</servlet-name>
+    <url-pattern>/ExportRoomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImportServlet</servlet-name>
+    <url-pattern>/ImportServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImportServlet2</servlet-name>
+    <url-pattern>/ImportServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportServlet</servlet-name>
+    <url-pattern>/ExportServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>LianDongServlet</servlet-name>
+    <url-pattern>/LianDongServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ShowMainServlet</servlet-name>
+    <url-pattern>/ShowMainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentMidServlet</servlet-name>
+    <url-pattern>/StudentMidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImportAdmin</servlet-name>
+    <url-pattern>/ImportAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImportStuServlet</servlet-name>
+    <url-pattern>/ImportStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IdentifyingServlet</servlet-name>
+    <url-pattern>/IdentifyingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BoradServlet</servlet-name>
+    <url-pattern>/BoradServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DaoRuServlet</servlet-name>
+    <url-pattern>/DaoRuServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>bgindex.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>TuServlet</display-name>
+    <servlet-name>TuServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.TuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TuServlet</servlet-name>
+    <url-pattern>/TuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TuServlet2</display-name>
+    <servlet-name>TuServlet2</servlet-name>
+    <servlet-class>com.ambow.servlet.TuServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TuServlet2</servlet-name>
+    <url-pattern>/TuServlet2</url-pattern>
+  </servlet-mapping>
+</web-app>
